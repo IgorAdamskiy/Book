@@ -1,0 +1,103 @@
+body{
+  margin: 0 0 0 0;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 300px;
+}
+
+#Titre{
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 100;
+
+}
+
+.pictures{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 15%;
+  justify-content: space-around;
+  margin: 9.5%;
+  z-index: 200;
+
+
+}
+
+.pich{
+  display: flex;
+  max-height: 30vh;
+  max-width: 30vw;
+  justify-content: space-around;
+
+}
+
+.picv{
+  display: flex;
+  padding-right: 3vw;
+  margin-top: 5vh;
+  max-height: 30vh;
+  max-width: 50vw;
+  justify-content: space-around;
+}
+
+.ping{
+  visibility: hidden;
+}
+
+#Jaune{
+  background-color: #FDFFCD;
+  display: flex;
+  position: fixed;
+  bottom: 0%;
+  padding: 0% 9.5% 35% 0.5%;
+  z-index: 100;
+}
+
+.Photos{
+  float: right;
+  display:block;
+  z-index: 50;
+}
+
+.nom {
+  justify-content: center;
+
+}
+
+.titrejaune{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 100;
+  display: flex;
+  float: left;
+  position: fixed;
+  width: 15%;
+  clear:both;
+  background-color: #FDFFCD;
+  position: fixed;
+  top: 50%;
+  padding: 0% 5% 30% 5%;
+  z-index: 200;
+}
+
+.parajaune {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 100;
+  font-size: 14pt;
+  display: block;
+  float: left;
+  position: fixed;
+  width: 15%;
+  clear:both;
+  position: fixed;
+  top: 50%;
+  padding: 0% 5% 30% 5%;
+  z-index: 100;
+}

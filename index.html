@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<head>
+  <title>Igor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="shortcut icon" type="image/png" href="Clouds.jpg"/>
+  <link rel="stylesheet" type-"text/css" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="title">
+    <h1 id="Titre"> Igor Adamskiy </h1>
+  </div>
+  <div class ="pictures">
+    <div class="pich">
+      <a href= "Clouds.html"><img src="Images/PageHome/Clouds.jpg" alt="img1"></a>
+    </div>
+    <div class="pich">
+      <a href="Fragile.html"><img src="Images/PageHome/Fragile.jpg" alt="img2"></a>
+    </div>
+    <div class="pich">
+      <a href="Portraits.html"><img src="Images/PageHome/Quelques_portraits.jpg" alt="img3"></a>
+    </div>
+    <div class="pich">
+      <a href="Oniric.html"><img src="Images/PageHome/Oniric.jpg" alt="img4"></a>
+    </div>
+    <div class="pich">
+      <a href="Temps.html"><img src="Images/PageHome/Temps suspendu.jpg" alt="img6"></a>
+    </div>
+  </div>
+  <div class ="pictures">
+    <div class="pich">
+      <a href="Lumineux.html"><img src="Images/PageHome/Corps lumineux.jpg" alt="img5"></a>
+    </div>
+    <div class="picv">
+      <a href="Ukraine.html"><img src="Images/PageHome/Ukraine.jpg" alt="img7"></a>
+    </div>
+    <div class="picv">
+      <a href="Chose.html"><img src="Images/PageHome/Pas grand chose.jpg" alt="img8"></a>
+    </div>
+    <div class="picv">
+      <a href="Intimite.html"><img src="Images/PageHome/Intimite.jpg" alt="img9"></a>
+    </div>
+    <div class="pich">
+      <a href="Influences.html"><img src="Images/PageHome/Influences.JPG" alt="img9"></a>
+    </div>
+  </div>
+  <div class ="pictures">
+    <div class="picv">
+      <a href="Contrat.html"><img src="Images/PageHome/Contrat de donation.jpg" alt="img10"></a>
+    </div>
+    <div class="picv">
+      <a href="dJustice.html"><img src="Images/PageHome/dJustice.JPG" alt="img11"></a>
+    </div>
+    <div class="pich">
+      <a href="Images/Expressivite/Expressivite.html"><img src="Images/PageHome/Expressivite des mains.JPG" alt="img12"></a>
+    </div>
+    <div class="picv">
+      <a href="Images/Fragments/Fragments.html"><img src="Images/PageHome/Fragments de nous.JPG" alt="img13"></a>
+    </div>
+    <div class="pich">
+      <a href="Images/Identites/Identites.html"><img src="Images/PageHome/Identites multiples.JPG" alt="img14"></a>
+    </div>
+  </div>
+  <div class ="pictures">
+    <div class="pich">
+      <a href="Images/Disparus/Disparus.html"><img src="Images/PageHome/Quand avez vous disparus.PNG" alt="img15"></a>
+    </div>
+    <div class="pich">
+      <a href="Images/Dressage/Dressage.html"><img src="Images/PageHome/Tentative de dressage de poule.png" alt="img16"></a>
+    </div>
+    <div class="pich">
+      <a href="Images/Jardin/Jardin.html"><img src="Images/PageHome/Un bout de mon jardin dans la ville.JPG" alt="img17"></a>
+    </div>
+    <div class="pich">
+      <a href="Images/Leonce/Leonce.html"><img src="Images/PageHome/Leonce.jpg" alt="img16"></a>
+    </div>
+  </div>
+  <div id="Jaune">
+    <div class="ping">
+      <p id="ping 0">CLOUDS</p>
+      <p id="ping 1">Eole</p>
+
+    </div>
+  </div>
+  <script type="text/javascript">
+    photos=document.getElementsByClassName("pich","picv");
+    for (let i=0;i<photos.length;i++){
+      photos[i].onmouseover = function(){
+        textIn=document.getElementById("ping "+i);
+        textIn.style.visibility="visible";
+      };
+      photos[i].onmouseout = function(){
+        textIn=document.getElementById("ping "+i);
+        textIn.style.visibility="hidden";
+      };
+    }
+  </script>
+</body>
